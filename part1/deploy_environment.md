@@ -44,7 +44,7 @@ openshift-playbook需要的环境要求：<br>
 #####1.6 配置互信 
 将ansible机器的key加到所有机器上，包括ansible机器本身。
 
-编辑文件jiedian.txt此文件只是方便执行ansiable命令。
+编辑文件jiedian.txt此文件只是方便执行ansible命令。
 >[master] <br>
 master1 <br>
 master2 <br>
@@ -59,7 +59,7 @@ node2 <br>
 
     ansible -i jiedian.txt all -m ping 
 
-注意：我们集群的docker版本是1.12.6，ansiable版本是2.3.0.0（可作为参照）<br>
+注意：我们集群的docker版本是1.12.6，ansible版本是2.3.0.0（可作为参照）<br>
 安装基础包 <br>
 #####1.6.1 lb机器安装haproxy , iptables-services 
 
