@@ -33,7 +33,7 @@ openshift-playbook需要的环境要求：<br>
       python-lxml <br>
 如果主机有外网能力可以用yum的方式安装
 
-    yum install -y ansible pyOpenSSL python-cryptography python-lxml 
+    yum install -y ansible
 
 或者自行下载rpm 
 
@@ -46,14 +46,14 @@ openshift-playbook需要的环境要求：<br>
 
 编辑文件jiedian.txt此文件只是方便执行ansiable命令。
 >[master] <br>
-10.174.64.179 <br>
-10.174.64.180 <br>
-10.174.64.181 <br>
+master1 <br>
+master2 <br>
+master3 <br>
 [lb] <br>
-10.174.64.182 <br>
+loadbalance <br>
 [node] <br>
-10.174.64.183 <br>
-10.174.64.184 <br>
+node1 <br>
+node2 <br>
 
 测试连通性
 
