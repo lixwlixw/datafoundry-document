@@ -6,7 +6,7 @@
 
 ## 集群及相关组件部署
 
-* [DF安装文档](part1/README.md) 
+* [DF安装](part1/README.md) 
  * [安装基础环境](part1/deploy_environment.md)
  * [安装集群](part1/deploy_datafoundry.md)
 * [DF相关组件安装](part1/README2.md)
