@@ -2,7 +2,7 @@
 
 ###一.安装基础环境
 
-####1.安装docker、ansiable 
+####1.安装docker、ansible 
 
 <font color=#FF4500 size=3>注：所有机器均需安装docker</font>
 
@@ -25,7 +25,7 @@
  
     git clone -b release-3.6 https://github.com/openshift/openshift-ansible.git 
 
-#####1.5 安装ansiable（ 10.174.64.179主机和ansible-playbook安装到同一台主机上）
+#####1.5 安装ansible（ master1主机和ansible-playbook安装到同一台主机上）
 openshift-playbook需要的环境要求：<br>
 	   ansible >= 2.2.2.0 <br>
 	   Jinja >= 2.7 <br>
@@ -42,7 +42,7 @@ openshift-playbook需要的环境要求：<br>
 根据提示安装依赖。
 
 #####1.6 配置互信 
-将ansiable机器的key加到所有机器上，包括ansiable机器本身。
+将ansible机器的key加到所有机器上，包括ansible机器本身。
 
 编辑文件jiedian.txt此文件只是方便执行ansiable命令。
 >[master] <br>
